@@ -18,13 +18,15 @@ function agregarAmigo() {
 
 function mostrarLista() {
     const lista = document.getElementById("listaAmigos");
-    lista.innerHTML = ""; 
 
-    amigos.forEach(amigo => {
+   
+    lista.innerHTML = "";
+
+    for (let i = 0; i < amigos.length; i++) {
         const li = document.createElement("li");
-        li.textContent = amigo;
+        li.textContent = amigos[i];
         lista.appendChild(li);
-    });
+    }
 }
 
 
