@@ -1,6 +1,28 @@
-Challenge_AmigoSecreto
-Aplicación web sencilla para organizar un sorteo de "Amigo Secreto". Los usuarios pueden agregar nombres a una lista y luego realizar un sorteo aleatorio para determinar quién será el amigo secreto.
+# Challenge_AmigoSecreto
 
-Funcionalidades: ➕ Agregar nombres: Los usuarios pueden ingresar el nombre de un amigo en un campo de texto y añadirlo a la lista. ✅ Validar entrada: Si el campo está vacío, se muestra una alerta pidiendo un nombre válido. 📋 Visualizar la lista: Los nombres ingresados se muestran en una lista visible debajo del campo de entrada. 🎲 Sorteo aleatorio: Con un clic en "Sortear Amigo", se selecciona y muestra en pantalla un nombre al azar de la lista.
+Aplicación web para organizar un sorteo de "Amigo Secreto".  
+Los usuarios pueden agregar nombres a una lista y luego sortear uno de ellos al azar.
 
-🛠️ Tecnologías usadas: HTML5 → estructura de la aplicación. CSS3 → estilos y diseño. JavaScript → lógica del sorteo y manipulación del DOM.
+## Funcionalidades
+- Agregar nombres a la lista.  
+- Validar que el campo no esté vacío.  
+- Mostrar la lista de amigos en pantalla.  
+- Sortear un amigo aleatoriamente y mostrarlo en pantalla.  
+
+## Tecnologías:
+- HTML  
+- CSS  
+- JavaScript  
+
+## Cómo usar:
+1. Abrir `index.html` en el navegador.  
+2. Escribir un nombre en el campo de texto y hacer clic en **Añadir**.  
+3. Ver el nombre agregado en la lista.  
+4. Hacer clic en **Sortear amigo** para seleccionar un nombre al azar.  
+
+## Archivos
+- `index.html` → Estructura de la página.  
+- `style.css` → Estilos visuales.  
+- `app.js` → Lógica de agregar amigos y sorteo.  
+- `assets/` → Imágenes usadas en la página.  
+
